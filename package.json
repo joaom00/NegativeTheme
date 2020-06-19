@@ -1,0 +1,31 @@
+{
+  "name": "negative-theme",
+  "displayName": "Negative Theme",
+  "description": "Tema Dark para o Visual Studio Code",
+  "version": "2.1.2",
+  "publisher": "Negative",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "galleryBanner": {
+    "color": "#0F111A",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaom00/negative-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Negative Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Negative-Theme-color-theme.json"
+      }
+    ]
+  }
+}
